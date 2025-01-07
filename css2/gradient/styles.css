@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gra-div{
+    margin-left: 20px;
+    margin-top:20px;
+    padding: 8px;
+    height:350px;
+    width:350px;
+    border: 2px solid black;
+    background-image: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(121,9,109,0.9948573179271709) 62%, rgba(0,212,255,1) 100%);
+}

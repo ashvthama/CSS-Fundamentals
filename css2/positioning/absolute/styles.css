@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    height:1000px;
+    width:100vw;
+    background-color:black;
+    border:1px solid blue;
+    position:relative;
+
+}
+
+.box{
+    display: inline-block;
+    height: 150px;
+    width:150px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#box4{
+    position:absolute;
+}

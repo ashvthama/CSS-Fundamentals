@@ -1,0 +1,59 @@
+CSS HANDBOOK
+
+BOX MODEL :-
+	MARGIN- OUTSIDE OF THE  BORDER
+	PADDING:- INSIDE OF THE BORDER;
+	
+SPECIFICITY:-
+	#->ID->1;
+	.->CLASS->2
+	tag->a, div, button etc->3;
+	
+SHADOW:-
+	text SHADOW-> shadow on content 
+	box SHADOW-> shadow on elements like div, a, img etc:-
+			Spread radius:-
+
+
+DIMENSION PROPERTIES:-
+	in dimensions the combination will be: width x height
+	Min height:- if contents height less than min height than it will remain same, but if
+				content grows greater than min height, block will automatically grow.
+	Min width:-
+	Max height:-if content is bigger than max height it will overflow;
+	Max width:-
+
+OVERFLOW PROPERTY:
+	overflow: visible -> the actual overflow will be visible
+	overflow: hidden -> hides
+	overflow: scroll -> allows us to scroll down;
+	overflow: auto 
+
+
+	overflow-y -> responsible for vertical 
+	overflow-x -> responsible for horizontal  
+
+
+POSITIIONING:-
+	STATIC - normal flow, default value set, no need to specify. default value.
+	Relative - moves element relative to its normal positioning
+				manipulated using top, left, bottom, right 
+
+	fixed - relative to the viewport, means remains in the same position even after scrolled.
+
+	absolute: positioning according to nearest positioned ancestor, parent element which is non static (eg. div with relative positioning)
+
+TRANSFORMATIONS:-
+	transform:translate(x, y)- moving an element
+		x-> Horizontally moving, y-> vertically moving, transform works only on block element, like section, div
+
+	rotate(angle)- rotating, when the angle is positive moves clockwise, when negative anticlockwise
+
+	scale(x, y)- increases size, zooms in
+			scalex()- size horizontally
+	 		scaley()- size vertically
+
+
+	 
+
+

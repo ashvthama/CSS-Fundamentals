@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dime{
+    margin:20px;
+    padding:8px;
+    border: 1px solid black;
+    height:300px;
+    width:300px;
+    overflow:scroll;
+    border-radius: 5px;
+}
+
+.yx-overflow{
+    border:1px solid black;
+    margin:20px;
+    padding:8px;
+    width: 100px;
+    height:200px;
+    overflow-y: hidden;
+    overflow-x:scroll;
+}

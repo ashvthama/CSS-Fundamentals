@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 10px;
+    border: 1px solid black;
+    width:400px;
+}
+.img-container{
+    margin: 20px;
+    width: 350px;
+    font-weight:bolder;
+    font-size: x-large;
+}
+#image-tag{
+    height: 200px;
+    width: auto;
+}
+
+.txt-span{
+    border-bottom: 1px solid gray;
+    width: 290px;
+    padding: 8px;
+}
+
+.price-span{
+    margin:8px;
+    display:flex;
+    gap:8px;
+}
+.purple-price{
+    color: purple;
+    padding-left:10px;
+}
+.gray-price{
+    padding-left:10px;
+    color: gray;
+    text-decoration: line-through;
+}
+.off-price{
+    margin-top:5px;
+    height:25px;
+    width:auto;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}

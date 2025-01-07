@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height:200px;
+    width:200px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+
+}
+#org{
+    background-color: orange;
+    margin:20px;
+    padding:10px;
+}
+#red{
+    background-color:white;
+    margin:20px;
+}
+#blue{
+    background-color: green;
+    margin:20px;
+}
+
+#ashok-chakra{
+    display: inline-block ;
+    justify-content: center;
+    align-content: center;
+    position:relative;
+
+}
+
+#chakra{
+    height: 70px;
+    position: absolute;
+    width:70px;
+}
