@@ -1,5 +1,8 @@
 CSS HANDBOOK
 
+emit:-
+	.container>.box*4{box-$} -> emit shortcut for creating a container and placing 4 div inside it and then adding value dynamically
+
 BOX MODEL :-
 	MARGIN- OUTSIDE OF THE  BORDER
 	PADDING:- INSIDE OF THE BORDER;
@@ -53,7 +56,62 @@ TRANSFORMATIONS:-
 			scalex()- size horizontally
 	 		scaley()- size vertically
 
+--------------------------------------------------------------------------------------------------------------------------------------
+FLEX :-
 
+display: flex -> creating flex
+default direction -> horizontal(row), can be changed using-> flex-direction:column
+the items placed inside of a flex container comes in a single line when flex created (row default )
+
+container properties:- 
+
+direction 
+row(default) + row reverse
+column + column reverse
+
+flex-wrap:-
+when we reduce the window size the width of the items inside of flex-container starts decrease automatically, for avoiding this we can 
+use flex wrap
+flex-wrap:wrap-> can keep the width of the element to predefined state until a certain step
+
+
+justify content -> for the horizontal axis (default, row)
+
+align-items -> for the vertical axis(column)
+	align-items:baseline -> the items baseline matches to be same, even if their sizes are different.
+
+align-content -> defines how the flex lines are distributed across the vertical axis(row), handling spaces betweeen the rows.
+
+
+CHILD PROPERTIES :-
+
+order:-
+if you increase the order of any element then it will be placed in the last between any child elements. eg. order:1
+
+flex-grow:-
+if flex-grow:1 -> all the child itmes inside the flex will take up all the available width, if applied on the common class the all elements
+will share the available width, but if applied on the specific class having specific number of items it will only increase its width.
+
+flex shrink:-
+The flex-shrink property specifies how the item will shrink relative to the rest of the flexible items inside the same container.
+default value:1;
+sets the speed of elements to squeeze.	
+
+flex-basis:- 
+similar as width in terms of allocating width, but the width of the item increases automatically when content inside of it increases.
+making the website reponsive.
 	 
 
+------------------------------------------------------------------------------------------------------------------------------------
 
+PARALLAXEFFECT PROJECT :-
+
+PERSPECTIVE-
+ENABLES THE 3D VIEW, NOTHING BUT DISTANCE BETWEEN EYES AND THE ACTUAL VIEW PORT.
+
+z-index:- default value 0, for overlapping which element will be on which element is decided by the z-index.
+
+object-cover:-> image will take all the width,
+
+translateZ -> made the image appear far
+scale -> increased the size of image even keeping it far, generating the parallax effect.

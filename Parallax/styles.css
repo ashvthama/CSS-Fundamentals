@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height:100vh;
+    overflow-x:hidden;
+    perspective: 10px;
+
+}
+
+.container{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    height:100%;
+    z-index: -1;
+}
+.background{
+    object-fit: cover;
+    transform: translateZ(-40px) scale(4);  
+}
+.foreground{
+    position:absolute;
+    object-fit: cover;
+    transform: translateZ(-20px) scale(3);}
+
+h1{
+    position: absolute;
+    transform: translateY(-300px);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
