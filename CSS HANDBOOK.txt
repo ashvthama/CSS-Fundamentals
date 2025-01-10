@@ -1,5 +1,7 @@
 CSS HANDBOOK
 
+use grid for layouts, and flex for positioning. both are container+items based apply flex/grid on the container.
+
 emit:-
 	.container>.box*4{box-$} -> emit shortcut for creating a container and placing 4 div inside it and then adding value dynamically
 
@@ -115,3 +117,35 @@ object-cover:-> image will take all the width,
 
 translateZ -> made the image appear far
 scale -> increased the size of image even keeping it far, generating the parallax effect.
+
+
+GRID :-
+
+CONTAINER PROPERTIES
+combination of rows and columns
+flexbox -> positioning 1d, grid-> 2d ,layout
+
+similar like flexbox, grid has container and child structure.
+
+if set as grid all the elements take up all the  
+
+grid-template-columns-> creates new columns.
+grid-template-rows -> creates new rows.
+
+fr-> for creating rows and columns of equal sizes by dividing the width and height equally between suggested elements.
+grid-template-columns: 1fr 1fr 1fr; -> creates 3 colums with equal dividing the available width.
+grid-template-colums: 1fr 1fr 1fr 100px; -> 3 equal width and one 100px column.
+
+
+ITEM PROPERTIES ->
+
+grid-column-start :1 
+grid-column-end:5 -> takes the columns till 5th. and pushes the other elements in next row, column.
+this is for width of element.
+
+for height of element-
+grid-row-start:1,
+grid-row-end:, 
+
+
+

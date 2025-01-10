@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border:1px solid black;
+    background-color: brown;
+    display: grid;
+    height:500px;
+    width:100vw;
+    /* gap: 10px; */
+    grid-template-columns: 1fr 1fr 1fr 100px;   
+    grid-template-rows: 100px 100px 100px 100px;
+    gap:15px;
+}
+
+.box{
+    background-color: aqua;
+    border:1px solid black;
+    padding:8px;
+    /* width:100px; */
+    /* height:100px; */
+}
+
+/* item props in grid */
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 5 ;
+}
+
+#box2{
+    grid-row-start:2;
+    grid-row-end:4;
+}
